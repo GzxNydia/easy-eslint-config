@@ -1,5 +1,5 @@
 {
-  "name": "@pro/easy-eslint-config",
+  "name": "easy-eslint-config-pro",
   "version": "1.0.5",
   "description": "eslint config for team",
   "main": "src/index.js",
@@ -47,5 +47,16 @@
   "devDependencies": {
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GzxNydia/easy-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GzxNydia/easy-eslint-config/issues"
+  },
+  "homepage": "https://github.com/GzxNydia/easy-eslint-config#readme"
 }

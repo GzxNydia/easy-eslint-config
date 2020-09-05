@@ -1,15 +1,15 @@
-# @pro/easy-eslint-config
+# easy-eslint-config-pro
 
 ## Installation
 
 ```sh
-npm i @pro/easy-eslint-config --save-dev
+npm i easy-eslint-config-pro --save-dev
 ```
 
 根目录下创建.prettierc.js，添加如下内容:
 
 ```js
-const config = require("@pro/easy-eslint-config");
+const config = require("easy-eslint-config-pro");
 
 module.exports = {
   ...config.prettier,
@@ -19,7 +19,7 @@ module.exports = {
 根目录下创建.stylelintrc.js，添加如下内容:
 
 ```js
-const config = require("@pro/easy-eslint-config");
+const config = require("easy-eslint-config-pro");
 
 module.exports = {
   ...config.stylelint,
@@ -29,7 +29,7 @@ module.exports = {
 根目录下创建 commitlint.config.js，添加如下内容:
 
 ```js
-const config = require("@pro/easy-eslint-config");
+const config = require("easy-eslint-config-pro");
 
 module.exports = {
   ...config.commitlint,
