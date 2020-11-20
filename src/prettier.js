@@ -4,16 +4,16 @@ module.exports = {
   printWidth: 100,
   semi: true,
   singleQuote: true,
-  trailingComma: "none",
-  proseWrap: "never",
-  arrowParens: "avoid",
-  endOfLine: "lf",
+  trailingComma: 'none',
+  proseWrap: 'never',
+  arrowParens: 'avoid',
+  endOfLine: 'lf',
   overrides: [
     {
-      files: ".prettierrc",
+      files: '.prettierrc',
       options: {
-        parser: "json",
-      },
-    },
-  ],
+        parser: 'json'
+      }
+    }
+  ]
 };
